@@ -4,7 +4,7 @@
  * Plugin Name: BuddyForms Frontend Table
  * Plugin URI: https://themekraft.com/
  * Description: Use BuddyForms with a nice Frontend Table
- * Version: 1.0.1
+ * Version: 1.0.2-beta.1
  * Author: ThemeKraft Team
  * Author URI: https://themekraft.com/
  * License: GPLv2 or later
@@ -36,7 +36,7 @@ class BuddyFormsFrontendTable {
 	 * @var string
 	 */
 	public static $include_assets = false;
-	public static $version = '1.0.1';
+	public static $version = '1.0.2-beta.1';
 	public static $slug = 'buddyforms-frontend-table';
 
 	/**
