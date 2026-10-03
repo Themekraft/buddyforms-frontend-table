@@ -1,0 +1,17 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+"
+      - "[0-9]+.[0-9]+.[0-9]+-beta.[0-9]+"
+
+jobs:
+  release:
+    uses: Themekraft/release-tooling/.github/workflows/release.yml@main
+    with:
+      slug: buddyforms-frontend-table
+      freemius-id: "5264"
+      main-file: buddyforms-frontend-table.php
+      wporg: false
+    secrets: inherit
